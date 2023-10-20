@@ -1,0 +1,63 @@
+.department {
+    width: 80%;
+}
+.fixed-table-header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+  }
+  
+
+.table-wrapper-scroll-y {
+    height: 500px; 
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+.table-wrapper-scroll-x {
+  width: 100%;
+  overflow-x: auto;
+  max-width: 100%;
+
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    max-height: 100%;
+    overflow: auto;
+  }
+ 
+.updatebody {
+    width: 50%;
+}
+
+@media only screen and (max-width: 610px) {
+ .updatebody {
+    width: 100%;
+ }
+    }
+
+    
+/* 
+}
+@media only screen and (max-width: 610px) {
+.description{
+    display: none;
+}
+.t-head {
+    font-size: 10px;
+}
+.dept-name {
+    font-size: 10px;
+}
+}
+@media only screen and (max-width: 400px) {
+    .year {
+    display: none;
+ }
+}
+@media only screen and (max-width: 400px) {
+    .dept-img{
+        display: none;
+    }
+} */

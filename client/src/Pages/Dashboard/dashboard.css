@@ -1,0 +1,71 @@
+.dashboard-body {
+    background: url('../../Assets/camilo-jimenez-vGu08RYjO-s-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 90vh;
+    overflow: auto; /* Add this line to enable scrolling content if needed */
+}
+
+
+
+.dashboard {
+    background: linear-gradient(to right, #333333,#333333, #000000);
+    position: absolute;
+    width: 80%;
+    height: 50px;
+    margin-left: 20%;
+   
+}
+.items {
+    color: #fff;
+    border-right: 1px solid white;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.items.active {
+    background-color:#0d6efd;
+   
+}
+
+/* employee */
+.empdash {
+    width: 50%;
+    color: #111;
+}
+.table-wrapper-scroll-y {
+    height: 500px; 
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+.table-wrapper-scroll-x {
+  width: 100%;
+  overflow-x: auto;
+  max-width: 100%;
+
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    max-height: 100%;
+    overflow: auto;
+  }
+  @media only screen and (max-width: 800px) {
+.empdash {
+    width: 100% !important;
+}
+  }
+
+@media only screen and (max-width: 300px) {
+.items {
+    font-size: 10px;
+}
+.dashboard {
+    display: flex;
+    flex-direction: column;
+
+}
+
+}
